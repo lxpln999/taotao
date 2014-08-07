@@ -1,0 +1,7 @@
+CREATE DATABASE IF NOT EXISTS `taotao`
+  DEFAULT CHARACTER SET utf8
+  COLLATE utf8_general_ci;
+
+GRANT ALL PRIVILEGES ON taotao.* TO 'taotao'@'localhost'
+IDENTIFIED BY 'taotao'
+WITH GRANT OPTION;

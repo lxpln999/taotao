@@ -1,0 +1,124 @@
+@charset "utf-8";
+html {
+	font-size:16px
+}
+body {
+	position:relative;
+	font:1rem/1.5 normal 'Droid Sans Fallback',sans-serif;
+	-webkit-text-size-adjust:none;
+	overflow-x:hidden
+}
+html,body,header,footer,nav,article,section,aside,time,code,div,p,ul,ol,li,dl,dd,dt,h1,h2,h3,a,span,strong,em,small,form,label,input,textarea {
+	margin:0;
+	padding:0
+}
+ul,ol {
+	list-style:none
+}
+h1,h2,h3,input {
+	font-size:100%
+}
+img {
+	border:0;
+	vertical-align:middle
+}
+label,input {
+	vertical-align:middle
+}
+a,a:hover {
+	text-decoration:none
+}
+
+.ft8 {
+	font-size:8px;
+}
+
+.ft10 {
+	font-size:10px;
+}
+
+.ft12 {
+	font-size:12px;
+}
+.ft14 {
+	font-size:14px;
+}
+.ft18 {
+	font-size:18px;
+}
+.ft20 {
+	font-size:20px;
+}
+.ft22 {
+	font-size:22px;
+}
+.ft24 {
+	font-size:24px;
+}
+.ft26 {
+	font-size:26px;
+}
+.ft30 {
+	font-size:30px;
+}
+.ft34 {
+	font-size:34px;
+}
+.ft40{
+	font-size: 40px;
+}
+.fn-noBr {
+	border:0!important
+}
+.fn-clear{
+	clear:both
+}
+.fn-clear:after {
+	content:'';
+	display:block;
+	clear:both
+}
+.fn-noWrap {
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap
+}
+.fn-isWrap {
+	white-space:normal!important
+}
+.ft-normal{
+	font-weight: normal;
+}
+.fn-hide{
+	display: none;
+}
+.fn-right{
+	float: right;
+}
+.fn-left{
+	float: left;
+}
+.fn-halfWidth{
+	width: 50%;
+}
+.fn-alcenter{
+	text-align: center;
+}
+.fn-alLeft{
+	text-align: left;
+}
+.fn-alRight{
+	text-align: right;
+}
+.fn-clear {
+	clear:both
+}
+.fn-clear:after {
+	content:'';
+	display:block;
+	clear:both
+}
+
+.hide{
+	display:none
+}

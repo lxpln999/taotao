@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta charset="UTF-8">
+    <title>淘淘</title>
+</head>
+<body ng-cloak>
+
+<div ng-controller="catalogController" ng-init="catalogs()">
+
+    <div>
+        <ul ng-repeat="catalog in catalogs">
+            <li>
+             <span>
+                  <a href="/taotao/classify/{{catalog.id}}">{{catalog.name}}</a>
+              </span>
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+<div ng-controller="productController" ng-init="products()">
+
+    <div ng-repeat="product in products">
+
+        <div>
+            <a href="/taotao/1/product/detail/{{product.id}}">
+                <img ng-src="{{product.picture}}">
+            </a>
+            <span>{{product.name}}</span>
+            <span>{{product.nowPrice}}</span>
+            <span>{{product.price}}</span>
+        </div>
+
+    </div>
+
+</div>
+
+
+</body>
+
+<script src="../taotao/js/angular.min.js"></script>
+<script src="../taotao/js/controller/catalogController.js"></script>
+<script src="../taotao/js/controller/productController.js"></script>
+
+</html>
