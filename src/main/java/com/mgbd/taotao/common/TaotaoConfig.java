@@ -21,8 +21,6 @@ public class TaotaoConfig extends JFinalConfig {
 
     @Override
     public void configRoute(Routes routes) {
-        routes.add("/", IndexController.class);
-        routes.add("/admin", AdminIndexController.class);
         routes.add(new AdminRoute());
         routes.add(new WebRoute());
     }

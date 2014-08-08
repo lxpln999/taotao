@@ -1,0 +1,14 @@
+com/mgbd/taotao/model/User.class
+com/mgbd/taotao/web/controller/WebCatalogController.class
+com/mgbd/taotao/route/WebRoute.class
+com/mgbd/taotao/common/Response.class
+com/mgbd/taotao/model/Product.class
+com/mgbd/taotao/route/AdminRoute.class
+com/mgbd/taotao/web/controller/WebProductController.class
+com/mgbd/taotao/common/ResponseCode.class
+com/mgbd/taotao/controller/AdminIndexController.class
+com/mgbd/taotao/admin/controller/AdminProductController.class
+com/mgbd/taotao/model/Catalog.class
+com/mgbd/taotao/controller/IndexController.class
+com/mgbd/taotao/admin/controller/AdminCatalogController.class
+com/mgbd/taotao/common/TaotaoConfig.class

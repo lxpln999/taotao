@@ -1,0 +1,15 @@
+<div>
+    <div ng-repeat="product in products">
+
+        <div>
+            <a href="#/product/detail/{{product.id}}">
+                <img ng-src="{{product.picture}}">
+            </a>
+            <span>{{product.name}}</span>
+            <span>{{product.nowPrice}}</span>
+            <span>{{product.price}}</span>
+        </div>
+
+    </div>
+
+</div>

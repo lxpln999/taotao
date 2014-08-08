@@ -1,0 +1,14 @@
+/sina/self/taotao/src/main/java/com/mgbd/taotao/web/controller/WebCatalogController.java
+/sina/self/taotao/src/main/java/com/mgbd/taotao/common/Response.java
+/sina/self/taotao/src/main/java/com/mgbd/taotao/common/ResponseCode.java
+/sina/self/taotao/src/main/java/com/mgbd/taotao/model/Product.java
+/sina/self/taotao/src/main/java/com/mgbd/taotao/admin/controller/AdminProductController.java
+/sina/self/taotao/src/main/java/com/mgbd/taotao/model/Catalog.java
+/sina/self/taotao/src/main/java/com/mgbd/taotao/route/AdminRoute.java
+/sina/self/taotao/src/main/java/com/mgbd/taotao/controller/IndexController.java
+/sina/self/taotao/src/main/java/com/mgbd/taotao/route/WebRoute.java
+/sina/self/taotao/src/main/java/com/mgbd/taotao/admin/controller/AdminCatalogController.java
+/sina/self/taotao/src/main/java/com/mgbd/taotao/model/User.java
+/sina/self/taotao/src/main/java/com/mgbd/taotao/web/controller/WebProductController.java
+/sina/self/taotao/src/main/java/com/mgbd/taotao/common/TaotaoConfig.java
+/sina/self/taotao/src/main/java/com/mgbd/taotao/controller/AdminIndexController.java
